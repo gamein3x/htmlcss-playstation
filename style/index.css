@@ -1,4 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
 /* Logo sony */
+
 .head-logo {
     background: black;
     padding-bottom: 5px;
@@ -11,4 +17,11 @@
     position: absolute;
     right: 10px;
     top: 30%;
+}
+
+/* Navbar */
+
+.navbar-nav {
+    font-weight: 600;
+    gap: 10px;
 }
