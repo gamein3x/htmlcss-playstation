@@ -1,0 +1,14 @@
+/* Logo sony */
+.head-logo {
+    background: black;
+    padding-bottom: 5px;
+    position: relative;
+    height: 30px;
+}
+
+.head-logo img {
+    width: 75px;
+    position: absolute;
+    right: 10px;
+    top: 30%;
+}
