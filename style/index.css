@@ -41,7 +41,7 @@ body {
 }
 
 .card-img {
-    width: 1;
+    width: 100%;
     object-fit: cover;
     min-height: 600px;
     aspect-ratio: 1;
@@ -119,8 +119,19 @@ body {
 }
 
 .hw-select-img {
-    width: 120px;
+    width: 100%;
     aspect-ratio: 1;
+    margin: 0 auto;
+}
+
+.hardware-select {
+    margin: 0 auto;
+    padding: 20%;
+    max-height: 240px;
+}
+
+.hw-select-text {
+    text-align: center;
 }
 
 
