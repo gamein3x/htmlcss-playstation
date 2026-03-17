@@ -77,3 +77,27 @@ body {
     object-fit: fill;
 }
 
+/* Intro section */
+
+.intro-section {
+    text-align: center;
+    position: relative;
+    margin-top: 120px;
+}
+
+.intro-section h6 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.intro-section h1 {
+    line-height: 10px;
+}
+
+.intro-section p {
+    position: relative;
+    bottom: -20px;
+    font-size: 20px;
+}
+
+/* Utility */ .text-grey {color: rgb(70, 70, 70);}
