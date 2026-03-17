@@ -38,13 +38,24 @@ body {
     width: 1;
 }
 
-.main-promo-0 {
-    min-height: 60vh;
-    height: fit-content;
+.main-promo {
+    min-height: 600px;
+    max-height: 745px;
+    border-radius: 0;
 }
 
-.main-promo-0 img {
+.main-promo img {
     object-fit: cover;
-    height: 100%;
+    min-height: 600px;
     aspect-ratio: 1;
+    max-height: 845px;
+}
+@media screen and (max-width: 992px) {
+    .main-card-title {
+        font-size: 50px;
+    }
+
+    .main-card-p {
+        font-size: 20px;
+    }
 }
