@@ -34,22 +34,25 @@ body {
 
 /* Main Promo */
 
-.card-img {
-    width: 1;
-}
-
 .main-promo {
     min-height: 600px;
     max-height: 745px;
     border-radius: 0;
 }
 
-.main-promo img {
+.card-img {
+    width: 1;
     object-fit: cover;
     min-height: 600px;
     aspect-ratio: 1;
     max-height: 845px;
 }
+
+.game-logo {
+    width: 80%;
+    transform: translateX(-30px);
+}
+
 @media screen and (max-width: 992px) {
     .main-card-title {
         font-size: 50px;
