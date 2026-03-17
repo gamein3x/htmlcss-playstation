@@ -32,7 +32,7 @@ body {
     font-weight: 700;
 }
 
-/* Main Promo */
+/* Main Promo section */
 
 .main-promo {
     min-height: 600px;
@@ -70,3 +70,10 @@ body {
         font-size: 20px;
     }
 }
+
+.promo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
