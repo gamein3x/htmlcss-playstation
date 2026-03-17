@@ -118,6 +118,11 @@ body {
     aspect-ratio: 1;
 }
 
+.hw-select-img {
+    width: 120px;
+    aspect-ratio: 1;
+}
+
 
 /* Utility */ 
 
