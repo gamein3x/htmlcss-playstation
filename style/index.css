@@ -31,3 +31,20 @@ body {
     color: white;
     font-weight: 700;
 }
+
+/* Main Promo */
+
+.card-img {
+    width: 1;
+}
+
+.main-promo-0 {
+    min-height: 60vh;
+    height: fit-content;
+}
+
+.main-promo-0 img {
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 1;
+}
