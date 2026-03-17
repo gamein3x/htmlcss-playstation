@@ -109,13 +109,19 @@ body {
 
 .text-grey {color: rgb(70, 70, 70);}
 
-.hover:hover {
-    transform: scale(1.05);
-    transition: 0.2s;
+.promo-img.hover:hover {
+    transform: scale(1.08);
+    transition: transform 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.promo-img.hover:active {
+    padding: 3px;
     border: 3px solid var(--blu);
+    background-color: white;
 }
 
 :root {
     --blu: rgb(84 180 211);
 }
+
