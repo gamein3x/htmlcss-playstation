@@ -50,7 +50,6 @@ body {
 
 .game-logo {
     width: 80%;
-    transform: translateX(-30px);
 }
 
 .buy-button {
@@ -58,11 +57,13 @@ body {
     width: 25%;
     border-radius: 25px;
     color: white;
+    min-width: fit-content;
 }
 
 @media screen and (max-width: 992px) {
     .main-card-title {
         font-size: 50px;
+        white-space: nowrap;
     }
 
     .main-card-p {
