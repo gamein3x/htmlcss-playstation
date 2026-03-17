@@ -113,6 +113,12 @@ body {
 }
 }
 
+.prod-img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+
 /* Utility */ 
 
 .text-grey {color: rgb(70, 70, 70);}
