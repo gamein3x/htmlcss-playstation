@@ -154,7 +154,7 @@ body {
     border-bottom: 2px solid var(--blu);
 }
 
-/* Sezione PS-Plus */
+/* Sezione PS-Plus e Now*/
 .plus-flex {
     max-height: 40vh;
 }
@@ -178,6 +178,16 @@ body {
     background: white;
 }
 
+/* Footer */
+
+.footer {
+    background: rgb(13, 110, 253);
+}
+
+.globe-icon {
+    width: 4%;
+    aspect-ratio: 1;
+}
 /* Utility */ 
 
 .text-grey {color: rgb(70, 70, 70);}
