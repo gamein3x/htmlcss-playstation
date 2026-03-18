@@ -118,22 +118,23 @@ body {
     aspect-ratio: 1;
 }
 
-.hw-select-img {
-    width: 100%;
+/*.hw-select-img {
+    max-width: 80px;
     aspect-ratio: 1;
     margin: 0 auto;
 }
 
 .hardware-select {
     margin: 0 auto;
-    padding: 20%;
-    max-height: 240px;
+    min-height: 240px;
+    background: grey;
+    border-bottom: 2px black;
 }
 
 .hw-select-text {
     text-align: center;
 }
-
+*/
 
 /* Utility */ 
 
