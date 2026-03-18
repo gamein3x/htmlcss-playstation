@@ -158,6 +158,13 @@ body {
 
 .text-grey {color: rgb(70, 70, 70);}
 
+.littleguy {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+
 .promo-img.hover:hover {
     transform: scale(1.08);
     transition: transform 0.3s ease-in-out;
