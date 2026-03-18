@@ -182,12 +182,21 @@ body {
 
 .footer {
     background: rgb(13, 110, 253);
+    color: white;
 }
 
 .globe-icon {
     width: 4%;
     aspect-ratio: 1;
 }
+
+.footer li {
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 30px;
+}
+
+
 /* Utility */ 
 
 .text-grey {color: rgb(70, 70, 70);}
