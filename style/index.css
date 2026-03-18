@@ -154,6 +154,22 @@ body {
     border-bottom: 2px solid var(--blu);
 }
 
+/* Sezione PS-Plus */
+.plus-flex {
+    max-height: 40vh;
+
+}
+
+.plus-section {
+    background: rgb(173, 173, 173);
+}
+
+.plus-btn {
+    color: rgb(13, 110, 253);
+    background: #D9DADC;
+    font-weight: 500;
+}
+
 /* Utility */ 
 
 .text-grey {color: rgb(70, 70, 70);}
