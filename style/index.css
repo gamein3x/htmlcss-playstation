@@ -157,7 +157,7 @@ body {
 /* Sezione PS-Plus */
 .plus-flex {
     max-height: 40vh;
-
+    min-height: 
 }
 
 .plus-section {
