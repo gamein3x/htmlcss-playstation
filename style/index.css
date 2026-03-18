@@ -196,7 +196,13 @@ body {
     line-height: 30px;
 }
 
+.sie-logo {
+    max-width: 40px;
+}
 
+.list-foot, .credits-foot {
+    flex-basis: 430px;
+}
 /* Utility */ 
 
 .text-grey {color: rgb(70, 70, 70);}
