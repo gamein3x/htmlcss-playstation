@@ -196,16 +196,33 @@ body {
     line-height: 30px;
 }
 
+.footer ul {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
 .sie-logo {
     max-width: 40px;
 }
 
-.list-foot, .credits-foot {
-    flex-basis: 430px;
+.list-foot, .ps-logo-foot {
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+.list-foot {
+    margin: 20px 0;
 }
 /* Utility */ 
 
-.text-grey {color: rgb(70, 70, 70);}
+.text-grey {color: rgb(70, 70, 70)}
 
 .littleguy {
     display: inline-block;
